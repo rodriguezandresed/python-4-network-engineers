@@ -1,0 +1,32 @@
+example scripts:
+variable_name_script.sh
+
+//naming variables, you can see this variable once you type myname
+myname="Andres"
+
+//variables need to be typed as $variablename otherwise it will only print "myname"
+echo $myname  -> Andres
+echo myname -> myname
+
+//if I echo a variable that doesn't have something, it will show empty
+
+//variables are only instanced for that terminal session, once you close the session, it's gone
+
+//Bash understands that items inside double quotes need to be shown, 
+// such as the content of the variable names, if you use single quoutes
+// it will only show the string
+
+ie. echo "Hello, my name is $myname." -> Hello, my name is Andres.
+    echo 'Hello, my name is $myname.' -> Hello, my name is $myname.
+
+
+//variables get saved on the script
+
+// you can use variables to save output of a valid command such as variable=$(command)
+files=$(ls)
+files_pwd=$(pwd)
+date=$(date)
+
+//in linux $USER shows the current username, within your distro, there are many variables that you can use
+//lowecase variables are the best practice as UPPERSCASE variable are usually environement variables
+// you can find which env variables you have at your disposal by typing env on the console (works for linux and windows)
