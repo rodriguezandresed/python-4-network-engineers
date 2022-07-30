@@ -1,0 +1,9 @@
+Netmiko is a multi-vendor library to simplify Paramiko SSH conections to network devices!
+
+Remember you need to have SSH enabled on the devices to use Netmiko!
+
+If netmiko isn't installed, you can always update by:
+
+apt-get update
+apt-get install python3-pip
+pip3 install -U netmiko

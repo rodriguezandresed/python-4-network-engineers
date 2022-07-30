@@ -16,3 +16,8 @@ Allows us to see the network config of that host and you can use nano to edit it
 
 We can use a NAT cloud on our topology to serve as DHCP server AND provide internet connection so you can upgrade modules!
 
+On nano we can set marks using ALT + SHIFT + A then highlight what you cant to copy and ALT + SHIFT + 6 to copy and release with CTRL + U
+
+You can use on nano CTRL + K to delete lines
+
+Python PEP 8 is a guide for indentation, style, quotes, etc 

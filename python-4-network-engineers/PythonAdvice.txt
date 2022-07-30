@@ -1,1 +1,4 @@
 One of the most popular IDE (Integrated Development Environment) for python is PyCharm
+
+Watch out so your files don't have any extra spaces that could case problems "see: myswitches"
+
