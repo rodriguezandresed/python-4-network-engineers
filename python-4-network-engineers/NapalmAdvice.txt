@@ -1,0 +1,5 @@
+NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor Support)
+
+Is a Python library that implements a set of functions to interact with different router vendor devices using a unified API
+
+Netmiko is needed to use NAPALM
