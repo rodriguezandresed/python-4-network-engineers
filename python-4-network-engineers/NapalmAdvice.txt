@@ -3,3 +3,15 @@ NAPALM (Network Automation and Programmability Abstraction Layer with Multivendo
 Is a Python library that implements a set of functions to interact with different router vendor devices using a unified API
 
 Netmiko is needed to use NAPALM
+
+Napalm can be used to audit configurations and change configuration of devices!
+
+Remember to:
+
+apt-get update
+apt-get install python -y
+apt-get install build-essential libssl-dev -y
+apt-get install python-pip -y
+pip install cryptography
+pip install netmiko 
+pip install napalm
