@@ -7,3 +7,7 @@ If netmiko isn't installed, you can always update by:
 apt-get update
 apt-get install python3-pip
 pip3 install -U netmiko
+
+Aditional libraries: 
+Encryption and decryption of data (needs pycrypto installed)
+pip3 install simple-crypt

@@ -2,3 +2,122 @@ One of the most popular IDE (Integrated Development Environment) for python is P
 
 Watch out so your files don't have any extra spaces that could case problems "see: myswitches"
 
+--------------------------------------------------------
+
+*arg -> functions aprameters as tuple
+
+foo(1,2,3)   -> 1,2,3
+
+**kwargs -> name="one", age="27" ->name one age 27
+
+--------------------------------------------------------
+
+In python strings are Unicode by default
+
+\n -> line jump
+
+\t -> indentation
+
+--------------------------------------------------------
+
+slice -> cuts text Cisco IOSv Router -> str[10] -> Router
+
+--------------------------------------------------------
+
+str.startswith('txt') / endswith('txt') -> Boolean
+
+str.strip() -> Removes spaces -> you can use lstrip or rstrip
+
+str.isdigit() -> boolean about numbers
+
+--------------------------------------------------------
+
+You can add variables to text instead of concadenating by:
+
+dns = '8.8.8.8'
+vrf = 'Internet'
+
+ping = 'ping {} vrf {}'.format(dns,vrf)
+
+--------------------------------------------------------
+
+dir(something) -> allows you to see all the commands you an apply to that object
+
+--------------------------------------------------------
+
+str.split(',') -> creates a list with '/' as delimiter for example:
+IP=192.168.72.5  -> IP.split('.') -> 192,168,72,5
+
+int1=str.index('Version') -> Shows the position where the string "Version" is
+
+so:
+
+str[int1: int1+21] would show the string Version + 21 characters
+
+or in python3:
+
+int1=str.find('Version')
+str[int1:(int1+21)]
+
+strip("characters") -> removes end and starting characters
+
+--------------------------------------------------------
+
+Tuples are Inmutable! While Lists are mutable
+
+List = [[S1,S2],[R1,R2]]
+
+List[0][1] = R1
+List[1][0] = S1
+List[0] = [S1,S2]
+List[1] = [R1,R2]
+
+--------------------------------------------------------
+
+appends adds to a list, while extends adds a list to a list
+
+list.insert(#) -> inserts at a given position
+sorted(list) -> sorts
+list.reverse() -> reverses list
+
+--------------------------------------------------------
+
+Tuples are defined by ()
+
+Tuple = (R1,R2,R3)
+
+You can turn a list into a tuple by doing tuple(list)
+
+--------------------------------------------------------
+
+You can continue lines using \ :
+
+    int = 1 + 2 +3 \
+    4+5+6\
+    7+8+9  
+
+    would return 45
+
+--------------------------------------------------------
+
+On a dictionary you can easly change keys or values by doing:
+
+dict[key] = 'value'
+
+dict1.update(dict2) -> combines dictionaries
+
+del dict[key] -> removes that key
+
+while dict.clear() -> removes everything and leaves that dict as {}
+
+you can find if a key exist by doing:
+
+'key' in dict -> returns a bollean
+
+dict.get('key') -> returns that value
+
+
+
+
+
+
